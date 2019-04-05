@@ -1,0 +1,8 @@
+[package]
+name = "fake_std"
+version = "0.1.0"
+authors = ["ding"]
+edition = "2018"
+
+[dependencies]
+std_detect = { version = "0.1", default-features = false }
